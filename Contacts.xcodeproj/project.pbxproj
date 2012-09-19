@@ -20,19 +20,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF4C19E6160944E600791D99 /* 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4C19E6160944E600791D99 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4C19EA160944E600791D99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF4C19EC160944E600791D99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF4C19EE160944E600791D99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CF4C19F2160944E600791D99 /* 1-Info.plist */ = {isa = PBXFileReference; path = "1-Info.plist"; sourceTree = "<group>"; };
+		CF4C19F2160944E600791D99 /* Contacts-Info.plist */ = {isa = PBXFileReference; path = "Contacts-Info.plist"; sourceTree = "<group>"; };
 		CF4C19F4160944E600791D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF4C19F6160944E600791D99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF4C19F8160944E600791D99 /* 1-Prefix.pch */ = {isa = PBXFileReference; path = "1-Prefix.pch"; sourceTree = "<group>"; };
-		CF4C19F9160944E600791D99 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4C19F8160944E600791D99 /* Contacts-Prefix.pch */ = {isa = PBXFileReference; path = "Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		CF4C19F9160944E600791D99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF4C19FA160944E600791D99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF4C19FC160944E600791D99 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		CF4C19FC160944E600791D99 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		CF4C19FD160944E600791D99 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CF4C19FF160944E600791D99 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		CF4C19FF160944E600791D99 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		CF4C1A00160944E600791D99 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		CF4C1A03160944E600791D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		CF4C1A06160944E600791D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		CF4C19DB160944E600791D99 = {
 			isa = PBXGroup;
 			children = (
-				CF4C19F0160944E600791D99 /* 1 */,
+				CF4C19F0160944E600791D99 /* Contacts */,
 				CF4C19E9160944E600791D99 /* Frameworks */,
 				CF4C19E7160944E600791D99 /* Products */,
 			);
@@ -64,7 +64,7 @@
 		CF4C19E7160944E600791D99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF4C19E6160944E600791D99 /* 1.app */,
+				CF4C19E6160944E600791D99 /* Contacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF4C19F0160944E600791D99 /* 1 */ = {
+		CF4C19F0160944E600791D99 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
 				CF4C19F9160944E600791D99 /* AppDelegate.h */,
@@ -92,16 +92,17 @@
 				CF4C1A05160944E600791D99 /* DetailViewController.xib */,
 				CF4C19F1160944E600791D99 /* Supporting Files */,
 			);
+			name = Contacts;
 			path = 1;
 			sourceTree = "<group>";
 		};
 		CF4C19F1160944E600791D99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF4C19F2160944E600791D99 /* 1-Info.plist */,
+				CF4C19F2160944E600791D99 /* Contacts-Info.plist */,
 				CF4C19F3160944E600791D99 /* InfoPlist.strings */,
 				CF4C19F6160944E600791D99 /* main.m */,
-				CF4C19F8160944E600791D99 /* 1-Prefix.pch */,
+				CF4C19F8160944E600791D99 /* Contacts-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF4C19E5160944E600791D99 /* 1 */ = {
+		CF4C19E5160944E600791D99 /* Contacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF4C1A0A160944E600791D99 /* Build configuration list for PBXNativeTarget "1" */;
+			buildConfigurationList = CF4C1A0A160944E600791D99 /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
 				CF4C19E2160944E600791D99 /* Sources */,
 				CF4C19E3160944E600791D99 /* Frameworks */,
@@ -121,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = 1;
+			name = Contacts;
 			productName = 1;
-			productReference = CF4C19E6160944E600791D99 /* 1.app */;
+			productReference = CF4C19E6160944E600791D99 /* Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +135,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = CF4C19E0160944E600791D99 /* Build configuration list for PBXProject "1" */;
+			buildConfigurationList = CF4C19E0160944E600791D99 /* Build configuration list for PBXProject "Contacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -146,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF4C19E5160944E600791D99 /* 1 */,
+				CF4C19E5160944E600791D99 /* Contacts */,
 			);
 		};
 /* End PBXProject section */
@@ -253,9 +254,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "1/1-Prefix.pch";
-				INFOPLIST_FILE = "1/1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "1/Contacts-Prefix.pch";
+				INFOPLIST_FILE = "1/Contacts-Info.plist";
+				PRODUCT_NAME = Contacts;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,9 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "1/1-Prefix.pch";
-				INFOPLIST_FILE = "1/1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "1/Contacts-Prefix.pch";
+				INFOPLIST_FILE = "1/Contacts-Info.plist";
+				PRODUCT_NAME = Contacts;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,7 +275,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF4C19E0160944E600791D99 /* Build configuration list for PBXProject "1" */ = {
+		CF4C19E0160944E600791D99 /* Build configuration list for PBXProject "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF4C1A08160944E600791D99 /* Debug */,
@@ -283,7 +284,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF4C1A0A160944E600791D99 /* Build configuration list for PBXNativeTarget "1" */ = {
+		CF4C1A0A160944E600791D99 /* Build configuration list for PBXNativeTarget "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF4C1A0B160944E600791D99 /* Debug */,
